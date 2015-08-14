@@ -1,0 +1,5 @@
+Name: Primetime Content Decryption Module provided by Adobe Systems, Incorporated 
+Description: Provides support for playing back protected web video
+Version: 12
+APIs: decode-video[com.adobe.primetime:h264], decode-audio[com.adobe.primetime:aac], eme-decrypt-v7[com.adobe.primetime]
+Libraries: dxva2.dll, d3d9.dll, msmpeg2vdec.dll, msmpeg2adec.dll, MSAudDecMFT.dll, evr.dll, mfheaacdec.dll, mfh264dec.dll, mfplat.dll

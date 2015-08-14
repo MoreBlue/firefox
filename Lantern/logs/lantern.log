@@ -1,0 +1,717 @@
+Aug 11 18:51:21.458 - 0m0s DEBUG i18n: translate.go:102 Setting locale zh_CN
+Aug 11 18:51:21.475 - 0m0s DEBUG flashlight: flashlight.go:180 ---- flashlight version: e6a5b57, release: 9999.99.99, build revision date: 20150807.035744 ----
+Aug 11 18:51:21.475 - 0m0s DEBUG flashlight.config: config.go:169 Placing configuration in Lantern
+Aug 11 18:51:21.480 - 0m0s DEBUG flashlight.config: config.go:247 Adding empty proxiedsites
+Aug 11 18:51:21.480 - 0m0s DEBUG flashlight.config: config.go:253 Loading default cloud proxiedsites
+Aug 11 18:51:21.481 - 0m0s DEBUG yamlconf: yamlconf_disk.go:84 Configuration changed programmatically, saving
+Aug 11 18:51:21.592 - 0m0s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 11 18:51:21.593 - 0m0s DEBUG flashlight: flashlight.go:157 Running proxy
+Aug 11 18:51:21.658 - 0m0s DEBUG flashlight.ui: ui.go:101 UI available at http://127.0.0.1:16823
+Aug 11 18:51:21.658 - 0m0s DEBUG flashlight.ui: service.go:135 Accepting websocket connections at: http:/127.0.0.1:16823/data
+Aug 11 18:51:21.658 - 0m0s DEBUG flashlight.settings: settings.go:79 Sending Lantern settings to new client
+Aug 11 18:51:21.659 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 11 18:51:21.659 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 11 18:51:21.659 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 11 18:51:21.659 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 11 18:51:21.686 - 0m0s DEBUG proxiedsites: proxiedsites.go:134 Applied updated configuration
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight: flashlight.go:314 Proxy all traffic or not: false
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: client.go:91 Configure() called
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: client.go:103 Client configuration initialized
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: client.go:104 Requiring minimum QOS of 0
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: client.go:105 Proxy all traffic or not: false
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: balancer.go:31 Adding 1 domain fronted servers
+Aug 11 18:51:21.711 - 0m0s DEBUG fronted: masquerade.go:66 Verifying up to 20 masquerades
+Aug 11 18:51:21.711 - 0m0s DEBUG connpool: connpool.go:74 Starting connection pool with size 30
+Aug 11 18:51:21.711 - 0m0s DEBUG flashlight.client: balancer.go:48 Adding 100 chained servers
+Aug 11 18:51:21.714 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 11 18:51:21.714 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 11 18:51:21.745 - 0m0s DEBUG fronted: dialer.go:232 Creating new direct domain fronter.
+Aug 11 18:51:21.745 - 0m0s DEBUG flashlight.geolookup: geolookup.go:73 Running
+Aug 11 18:51:21.745 - 0m0s DEBUG flashlight.statserver: statserver.go:36 Started
+Aug 11 18:51:21.745 - 0m0s DEBUG flashlight.client: client.go:81 About to start client (HTTP) proxy at 127.0.0.1:8787
+Aug 11 18:51:21.746 - 0m0s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:51:21.747 - 0m0s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:21.747 - 0m0s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:22.173 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 11 18:51:22.174 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 11 18:51:22.174 - 0m0s DEBUG flashlight.logging: logging.go:132 Sending error logs to Loggly via proxy at 127.0.0.1:8787
+Aug 11 18:51:22.178 - 0m0s DEBUG flashlight.autoupdate: autoupdate.go:78 Software version: 9999.99.99
+Aug 11 18:51:22.178 - 0m0s DEBUG autoupdate: autoupdate.go:59 Defaulted CheckInterval to 4h0m0s
+Aug 11 18:51:22.245 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 11 18:51:22.341 - 0m0s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 178.62.198.123:443
+Aug 11 18:51:22.435 - 0m1s DEBUG balancer: balancer.go:96 Dialing tcp://update.getlantern.org:443 with (trusted) chained proxy at 188.166.21.152:443
+Aug 11 18:51:22.711 - 0m1s DEBUG yamlconf: yamlconf_disk.go:50 Configuration changed on disk, applying
+Aug 11 18:51:22.714 - 0m1s DEBUG flashlight.autoupdate: autoupdate.go:42 Autoupdate configuration unchanged
+Aug 11 18:51:22.714 - 0m1s DEBUG flashlight.logging: logging.go:88 Logging configuration unchanged
+Aug 11 18:51:22.748 - 0m1s DEBUG proxiedsites: proxiedsites.go:118 Configuration unchanged
+Aug 11 18:51:22.748 - 0m1s DEBUG flashlight: flashlight.go:314 Proxy all traffic or not: false
+Aug 11 18:51:22.748 - 0m1s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 11 18:51:22.748 - 0m1s DEBUG flashlight.client: client.go:91 Configure() called
+Aug 11 18:51:22.755 - 0m1s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 11 18:51:22.755 - 0m1s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 11 18:51:22.758 - 0m1s DEBUG flashlight.client: client.go:96 Client configuration unchanged
+Aug 11 18:51:22.758 - 0m1s DEBUG fronted: dialer.go:232 Creating new direct domain fronter.
+Aug 11 18:51:22.758 - 0m1s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 11 18:51:22.774 - 0m1s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 178.62.247.181:443
+Aug 11 18:51:23.941 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:23.942 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:23.943 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: shapeways.com in 2.2121265s, 
+Aug 11 18:51:23.974 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:23.974 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:23.974 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: freenode.net in 2.2431283s, 
+Aug 11 18:51:23.990 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:23.990 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:23.991 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: bubblews.com in 2.2601293s, 
+Aug 11 18:51:23.993 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:23.993 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:23.994 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: anakbnet.com in 2.2631295s, 
+Aug 11 18:51:24.017 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:24.017 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:24.017 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: hackforums.net in 2.2861308s, 
+Aug 11 18:51:24.033 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:24.033 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:24.034 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: gcflearnfree.org in 2.3041318s, 
+Aug 11 18:51:24.036 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:24.036 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:24.037 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: snapwidget.com in 2.3061319s, 
+Aug 11 18:51:24.092 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:24.092 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:24.093 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: goud.ma in 2.3621351s, 
+Aug 11 18:51:24.233 - 0m2s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:24.234 - 0m2s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:24.234 - 0m2s DEBUG fronted: masquerade.go:158 Sucessful check for: wmpoweruser.com in 2.5031432s, 
+Aug 11 18:51:24.437 - 0m3s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://update.getlantern.org:443 on pass 0
+Aug 11 18:51:24.438 - 0m3s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:24.638 - 0m3s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 0
+Aug 11 18:51:24.663 - 0m3s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:25.242 - 0m3s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:25.242 - 0m3s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:25.243 - 0m3s DEBUG fronted: masquerade.go:158 Sucessful check for: addmefast.com in 3.5122009s, 
+Aug 11 18:51:25.288 - 0m3s DEBUG flashlight.geolookup: geolookup.go:106 Location changed
+Aug 11 18:51:25.553 - 0m4s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:25.553 - 0m4s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:25.554 - 0m4s DEBUG fronted: masquerade.go:158 Sucessful check for: ads.id in 1.6110922s, 
+Aug 11 18:51:26.358 - 0m4s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.358 - 0m4s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.384 - 0m4s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.384 - 0m4s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.390 - 0m4s DEBUG flashlight.config: config.go:112 Merging cloud configuration
+Aug 11 18:51:26.396 - 0m4s DEBUG fronted: masquerade.go:158 Sucessful check for: www.manatelugumovies.net in 2.4011374s, 
+Aug 11 18:51:26.398 - 0m4s DEBUG fronted: masquerade.go:158 Sucessful check for: www.lebanese-forces.com in 2.3631352s, 
+Aug 11 18:51:26.400 - 0m4s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.400 - 0m4s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.411 - 0m5s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 11 18:51:26.412 - 0m5s DEBUG fronted: masquerade.go:158 Sucessful check for: postto.me in 2.1771246s, 
+Aug 11 18:51:26.440 - 0m5s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.440 - 0m5s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.479 - 0m5s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.479 - 0m5s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.482 - 0m5s DEBUG fronted: masquerade.go:158 Sucessful check for: youm7.com in 2.464141s, 
+Aug 11 18:51:26.494 - 0m5s DEBUG fronted: masquerade.go:158 Sucessful check for: temptalia.com in 2.5031432s, 
+Aug 11 18:51:26.506 - 0m5s DEBUG autoupdate: autoupdate.go:97 Already up to date.
+Aug 11 18:51:26.535 - 0m5s DEBUG yamlconf: yamlconf_disk.go:84 Configuration changed programmatically, saving
+Aug 11 18:51:26.628 - 0m5s DEBUG flashlight.autoupdate: autoupdate.go:42 Autoupdate configuration unchanged
+Aug 11 18:51:26.628 - 0m5s DEBUG flashlight.logging: logging.go:88 Logging configuration unchanged
+Aug 11 18:51:26.659 - 0m5s DEBUG proxiedsites: proxiedsites.go:118 Configuration unchanged
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight: flashlight.go:314 Proxy all traffic or not: false
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.client: client.go:91 Configure() called
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.client: client.go:103 Client configuration changed
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.client: client.go:104 Requiring minimum QOS of 0
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.client: client.go:105 Proxy all traffic or not: false
+Aug 11 18:51:26.659 - 0m5s DEBUG flashlight.client: balancer.go:31 Adding 1 domain fronted servers
+Aug 11 18:51:26.659 - 0m5s DEBUG fronted: masquerade.go:66 Verifying up to 20 masquerades
+Aug 11 18:51:26.660 - 0m5s DEBUG connpool: connpool.go:74 Starting connection pool with size 30
+Aug 11 18:51:26.660 - 0m5s DEBUG flashlight.client: balancer.go:48 Adding 1 chained servers
+Aug 11 18:51:26.660 - 0m5s DEBUG fronted: dialer.go:232 Creating new direct domain fronter.
+Aug 11 18:51:26.660 - 0m5s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 11 18:51:26.660 - 0m5s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 11 18:51:26.661 - 0m5s DEBUG flashlight.client: balancer.go:66 Closed old balancer
+Aug 11 18:51:26.667 - 0m5s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 11 18:51:26.669 - 0m5s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:26.904 - 0m5s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:26.904 - 0m5s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:26.908 - 0m5s DEBUG fronted: masquerade.go:158 Sucessful check for: gilt.com in 2.9331677s, 
+Aug 11 18:51:27.677 - 0m6s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 0
+Aug 11 18:51:27.714 - 0m6s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:27.715 - 0m6s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:27.715 - 0m6s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:27.715 - 0m6s DEBUG fronted: masquerade.go:158 Sucessful check for: appstorm.net in 2.4721414s, 
+Aug 11 18:51:27.981 - 0m6s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:27.981 - 0m6s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:27.981 - 0m6s DEBUG fronted: masquerade.go:158 Sucessful check for: pastebin.com in 2.4271388s, 
+Aug 11 18:51:28.499 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:28.499 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:28.500 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: 10minutemail.com in 2.1021202s, 
+Aug 11 18:51:28.661 - 0m7s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 11 18:51:28.904 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:28.904 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:28.905 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: convinceandconvert.com in 2.5071434s, 
+Aug 11 18:51:29.076 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.076 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.077 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: postcron.com in 2.5831477s, 
+Aug 11 18:51:29.180 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.181 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.182 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: makeagif.com in 2.7701584s, 
+Aug 11 18:51:29.251 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.251 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.252 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: torrentfreak.com in 2.5911482s, 
+Aug 11 18:51:29.276 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.276 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.277 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: www.zumba.com in 2.7821592s, 
+Aug 11 18:51:29.308 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.308 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.309 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: cuevana2.tv in 2.6471514s, 
+Aug 11 18:51:29.324 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.325 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.373 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.373 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.374 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: jeuneafrique.com in 2.7131552s, 
+Aug 11 18:51:29.437 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.437 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.439 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: gcflearnfree.org in 2.7771588s, 
+Aug 11 18:51:29.443 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.443 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.444 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: cairokora.com in 2.7821591s, 
+Aug 11 18:51:29.471 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.471 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.472 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: intercambiosvirtuales.org in 2.8111608s, 
+Aug 11 18:51:29.787 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:29.788 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:29.789 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: searchengines.guru in 3.1271788s, 
+Aug 11 18:51:30.206 - 0m8s ERROR fronted: masquerade.go:165 HTTP error for masquerade alziadiq8.com: Head http://www.google.com/humans.txt: malformed HTTP status code "html"
+Aug 11 18:51:30.253 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:30.253 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:30.254 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: www.namepros.com in 3.5922054s, 
+Aug 11 18:51:31.937 - 0m10s DEBUG balancer: balancer.go:96 Dialing tcp://safebrowsing.google.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:31.959 - 0m10s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:31.959 - 0m10s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:31.960 - 0m10s DEBUG fronted: masquerade.go:158 Sucessful check for: piktochart.com in 5.2993031s, 
+Aug 11 18:51:32.190 - 0m10s DEBUG balancer: balancer.go:96 Dialing tcp://logs-01.loggly.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:32.287 - 0m10s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.287 - 0m10s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.288 - 0m10s DEBUG fronted: masquerade.go:158 Sucessful check for: www.thenewslens.com in 3.0351736s, 
+Aug 11 18:51:32.340 - 0m10s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.340 - 0m10s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.341 - 0m10s DEBUG fronted: masquerade.go:158 Sucessful check for: www.aciprensa.com in 2.9661696s, 
+Aug 11 18:51:32.365 - 0m10s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.365 - 0m10s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.366 - 0m10s DEBUG fronted: masquerade.go:158 Sucessful check for: www.life.com.tw in 3.0561748s, 
+Aug 11 18:51:32.506 - 0m11s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://safebrowsing.google.com:443 on pass 0
+Aug 11 18:51:32.634 - 0m11s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.634 - 0m11s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.635 - 0m11s DEBUG fronted: masquerade.go:158 Sucessful check for: q.gs in 2.4291389s, 
+Aug 11 18:51:32.777 - 0m11s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.778 - 0m11s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.779 - 0m11s DEBUG fronted: masquerade.go:158 Sucessful check for: a2hosting.com in 3.3061891s, 
+Aug 11 18:51:32.808 - 0m11s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:32.808 - 0m11s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:32.809 - 0m11s DEBUG fronted: masquerade.go:158 Sucessful check for: curse.com in 3.3691927s, 
+Aug 11 18:51:32.842 - 0m11s DEBUG balancer: balancer.go:96 Dialing tcp://clients1.google.com:80 with (trusted) fronted proxy at nl.fallbacks.getiantem.org:443 using masquerade set cloudflare
+Aug 11 18:51:33.090 - 0m11s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:33.090 - 0m11s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:33.091 - 0m11s DEBUG fronted: masquerade.go:158 Sucessful check for: spi0n.com in 3.3001888s, 
+Aug 11 18:51:33.238 - 0m11s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://logs-01.loggly.com:443 on pass 0
+Aug 11 18:51:33.543 - 0m12s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:33.543 - 0m12s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:33.545 - 0m12s DEBUG fronted: masquerade.go:158 Sucessful check for: freebitco.in in 3.2891882s, 
+Aug 11 18:51:33.943 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.189.36:443 idle for 10s, closing
+Aug 11 18:51:33.975 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.250.27:443 idle for 10s, closing
+Aug 11 18:51:33.992 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.20.22.198:443 idle for 10s, closing
+Aug 11 18:51:33.995 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.250.168:443 idle for 10s, closing
+Aug 11 18:51:34.018 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.121.13:443 idle for 10s, closing
+Aug 11 18:51:34.035 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.112.72:443 idle for 10s, closing
+Aug 11 18:51:34.038 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.246.49:443 idle for 10s, closing
+Aug 11 18:51:34.094 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.125.33:443 idle for 10s, closing
+Aug 11 18:51:34.215 - 0m12s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://clients1.google.com:80 on pass 0
+Aug 11 18:51:34.235 - 0m12s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.246.134:443 idle for 10s, closing
+Aug 11 18:51:34.272 - 0m12s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:34.861 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.865 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.896 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.916 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.924 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.929 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.939 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.954 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:34.954 - 0m13s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:34.955 - 0m13s DEBUG fronted: masquerade.go:158 Sucessful check for: manygames.com in 2.9941713s, 
+Aug 11 18:51:34.957 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.138 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.139 - 0m13s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:35.139 - 0m13s DEBUG fronted: masquerade.go:158 Sucessful check for: onlineclock.net in 2.79716s, 
+Aug 11 18:51:35.147 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.148 - 0m13s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:35.148 - 0m13s DEBUG fronted: masquerade.go:158 Sucessful check for: thepioneerwoman.com in 2.8581635s, 
+Aug 11 18:51:35.244 - 0m13s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.184.158:443 idle for 10s, closing
+Aug 11 18:51:35.246 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.333 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.334 - 0m13s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:35.335 - 0m13s DEBUG fronted: masquerade.go:158 Sucessful check for: subscene.com in 5.8893368s, 
+Aug 11 18:51:35.555 - 0m14s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.250.152:443 idle for 10s, closing
+Aug 11 18:51:35.611 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.611 - 0m14s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:35.842 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:35.842 - 0m14s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:35.843 - 0m14s DEBUG fronted: masquerade.go:158 Sucessful check for: www.davidicke.com in 3.1951828s, 
+Aug 11 18:51:36.086 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:36.086 - 0m14s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:36.087 - 0m14s DEBUG fronted: masquerade.go:158 Sucessful check for: canva.com in 3.7192127s, 
+Aug 11 18:51:36.196 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:36.397 - 0m14s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.168:443 idle for 10s, closing
+Aug 11 18:51:36.399 - 0m14s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.121.64:443 idle for 10s, closing
+Aug 11 18:51:36.413 - 0m15s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.120.157:443 idle for 10s, closing
+Aug 11 18:51:36.515 - 0m15s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.16.17.116:443 idle for 10s, closing
+Aug 11 18:51:36.515 - 0m15s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 108.162.200.113:443 idle for 10s, closing
+Aug 11 18:51:36.725 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:36.909 - 0m15s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.209.112:443 idle for 10s, closing
+Aug 11 18:51:36.987 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:36.988 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:36.988 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: www.wimdu.com in 4.177239s, 
+Aug 11 18:51:36.993 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:36.993 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:36.993 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: futhead.com in 4.2132409s, 
+Aug 11 18:51:37.005 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.005 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:37.006 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: www.sundayworld.com in 3.9152239s, 
+Aug 11 18:51:37.128 - 0m15s ERROR balancer: balancer.go:99 Unable to dial tcp://ssl.google-analytics.com:443: Unable to dial server: EOF on pass 0...continuing
+Aug 11 18:51:37.128 - 0m15s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 188.166.41.178:443
+Aug 11 18:51:37.365 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.366 - 0m15s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 199.83.133.3:443 idle for 10s, closing
+Aug 11 18:51:37.379 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.386 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.436 - 0m16s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.472 - 0m16s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:37.718 - 0m16s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.250.50:443 idle for 10s, closing
+Aug 11 18:51:37.858 - 0m16s DEBUG flashlight.packaged: packaged.go:112 Opening externalUrl from: D:\firefox
+Aug 11 18:51:37.858 - 0m16s DEBUG flashlight.packaged: packaged.go:79 Opening file at: D:\firefox/.packaged-lantern.yaml
+Aug 11 18:51:37.858 - 0m16s ERROR flashlight.packaged: packaged.go:82 Error reading file open D:\firefox/.packaged-lantern.yaml: The system cannot find the file specified.
+Aug 11 18:51:37.858 - 0m16s DEBUG flashlight.packaged: packaged.go:79 Opening file at: Lantern/.packaged-lantern.yaml
+Aug 11 18:51:37.859 - 0m16s ERROR flashlight.packaged: packaged.go:82 Error reading file open Lantern/.packaged-lantern.yaml: The system cannot find the file specified.
+Aug 11 18:51:37.859 - 0m16s ERROR flashlight.ui: ui.go:134 Could not read yaml from : open Lantern/.packaged-lantern.yaml: The system cannot find the file specified.
+Aug 11 18:51:37.982 - 0m16s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.241.15:443 idle for 10s, closing
+Aug 11 18:51:38.076 - 0m16s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:38.501 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.251.16:443 idle for 10s, closing
+Aug 11 18:51:38.724 - 0m17s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:38.724 - 0m17s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:38.725 - 0m17s DEBUG fronted: masquerade.go:158 Sucessful check for: getsecuredfiles.com in 5.1802963s, 
+Aug 11 18:51:38.906 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.124.136:443 idle for 10s, closing
+Aug 11 18:51:39.078 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.251.63:443 idle for 10s, closing
+Aug 11 18:51:39.128 - 0m17s DEBUG balancer: balancer.go:96 Dialing tcp://platform.twitter.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:39.131 - 0m17s DEBUG balancer: balancer.go:96 Dialing tcp://connect.facebook.net:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:39.154 - 0m17s DEBUG flashlight.settings: settings.go:79 Sending Lantern settings to new client
+Aug 11 18:51:39.183 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.248.46:443 idle for 10s, closing
+Aug 11 18:51:39.216 - 0m17s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:39.253 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.245.23:443 idle for 10s, closing
+Aug 11 18:51:39.278 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.246.77:443 idle for 10s, closing
+Aug 11 18:51:39.310 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.241.105:443 idle for 10s, closing
+Aug 11 18:51:39.375 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.248.152:443 idle for 10s, closing
+Aug 11 18:51:39.375 - 0m17s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:39.401 - 0m17s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:39.440 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.113.72:443 idle for 10s, closing
+Aug 11 18:51:39.445 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.16.2.117:443 idle for 10s, closing
+Aug 11 18:51:39.473 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.242.146:443 idle for 10s, closing
+Aug 11 18:51:39.644 - 0m18s DEBUG flashlight.analytics: analytics.go:82 New UI analytics message: map["clientId":"517517671.1439318159" "clientVersion":"j12" "language":"zh-cn" "screenColors":"24-bit" "screenResolution":"1093x614" "trackingId":"UA-21815217-2" "viewPortSize":""]
+Aug 11 18:51:39.645 - 0m18s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:39.754 - 0m18s DEBUG balancer: balancer.go:96 Dialing tcp://safebrowsing-cache.google.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:39.790 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.241.113:443 idle for 10s, closing
+Aug 11 18:51:40.017 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.106 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.114 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.255 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.240.131:443 idle for 10s, closing
+Aug 11 18:51:40.268 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.319 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.348 - 0m18s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.616 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.725 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:40.807 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:41.006 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:41.192 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:41.475 - 0m20s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:41.475 - 0m20s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:41.476 - 0m20s DEBUG fronted: masquerade.go:158 Sucessful check for: smotrisport.tv in 6.521373s, 
+Aug 11 18:51:41.940 - 0m20s DEBUG balancer: balancer.go:96 Dialing tcp://logs-01.loggly.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:41.961 - 0m20s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.246.70:443 idle for 10s, closing
+Aug 11 18:51:42.013 - 0m20s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://connect.facebook.net:80 on pass 0
+Aug 11 18:51:42.137 - 0m20s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:42.137 - 0m20s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:42.139 - 0m20s DEBUG fronted: masquerade.go:158 Sucessful check for: re-direcciona.me in 6.9994003s, 
+Aug 11 18:51:42.289 - 0m20s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 108.162.204.219:443 idle for 10s, closing
+Aug 11 18:51:42.337 - 0m20s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://platform.twitter.com:80 on pass 0
+Aug 11 18:51:42.342 - 0m20s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.190.166:443 idle for 10s, closing
+Aug 11 18:51:42.359 - 0m20s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 1
+Aug 11 18:51:42.360 - 0m20s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:42.362 - 0m20s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 0
+Aug 11 18:51:42.367 - 0m20s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.241.19:443 idle for 10s, closing
+Aug 11 18:51:42.420 - 0m21s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:42.617 - 0m21s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://safebrowsing-cache.google.com:443 on pass 0
+Aug 11 18:51:42.636 - 0m21s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.246.88:443 idle for 10s, closing
+Aug 11 18:51:42.779 - 0m21s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.190.199:443 idle for 10s, closing
+Aug 11 18:51:42.810 - 0m21s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.115.102:443 idle for 10s, closing
+Aug 11 18:51:43.091 - 0m21s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.180.58:443 idle for 10s, closing
+Aug 11 18:51:43.262 - 0m21s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:43.320 - 0m21s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:43.480 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:43.495 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:43.544 - 0m22s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.200:443 idle for 10s, closing
+Aug 11 18:51:44.105 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:44.224 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:44.294 - 0m22s DEBUG flashlight.client: fronted.go:129 TLS handshake to minecraftforum.net (141.101.115.118:443) took 6.4313679s
+Aug 11 18:51:44.297 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:44.368 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:44.955 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.241.107:443 idle for 10s, closing
+Aug 11 18:51:44.981 - 0m23s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:45.037 - 0m23s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade www.forosdelweb.com: dial tcp 141.101.121.35:443: ConnectEx tcp: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Aug 11 18:51:45.037 - 0m23s ERROR fronted: masquerade.go:165 HTTP error for masquerade www.forosdelweb.com: Head http://www.google.com/humans.txt: Unable to dial proxy to www.google.com:80: Unable to dial proxy to www.google.com:80: Unable to dial masquerade www.forosdelweb.com: dial tcp 141.101.121.35:443: ConnectEx tcp: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Aug 11 18:51:45.146 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.240.58:443 idle for 10s, closing
+Aug 11 18:51:45.168 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.191.137:443 idle for 10s, closing
+Aug 11 18:51:45.335 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.249.9:443 idle for 10s, closing
+Aug 11 18:51:45.843 - 0m24s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.187.87:443 idle for 10s, closing
+Aug 11 18:51:46.087 - 0m24s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.88:443 idle for 10s, closing
+Aug 11 18:51:46.295 - 0m24s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:51:46.322 - 0m24s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://logs-01.loggly.com:443 on pass 0
+Aug 11 18:51:46.651 - 0m25s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 11 18:51:46.705 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:46.705 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 11 18:51:46.706 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: minecraftforum.net in 11.557661s, 
+Aug 11 18:51:46.913 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:46.988 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.16.4.4:443 idle for 10s, closing
+Aug 11 18:51:46.993 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.245.99:443 idle for 10s, closing
+Aug 11 18:51:47.006 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.187.49:443 idle for 10s, closing
+Aug 11 18:51:47.271 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:47.456 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:47.555 - 0m26s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 11 18:51:47.569 - 0m26s DEBUG balancer: balancer.go:96 Dialing tcp://static.ak.facebook.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:47.573 - 0m26s DEBUG balancer: balancer.go:96 Dialing tcp://s-static.ak.facebook.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:47.619 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:48.301 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:48.361 - 0m26s DEBUG balancer: balancer.go:96 Dialing tcp://syndication.twitter.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:51:48.570 - 0m27s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:48.725 - 0m27s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.245.76:443 idle for 10s, closing
+Aug 11 18:51:49.078 - 0m27s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:49.574 - 0m28s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:49.633 - 0m28s DEBUG flashlight.ui: ws.go:156 Error reading from UI: websocket: close 1005 
+Aug 11 18:51:49.874 - 0m28s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:50.661 - 0m29s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:50.907 - 0m29s DEBUG flashlight.ui: ws.go:129 Error writing to UI websocket: close sent for: http:/127.0.0.1:16823/data
+Aug 11 18:51:51.477 - 0m30s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.121.221:443 idle for 10s, closing
+Aug 11 18:51:52.140 - 0m30s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.243.146:443 idle for 10s, closing
+Aug 11 18:51:52.750 - 0m31s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:53.104 - 0m31s DEBUG flashlight.client: fronted.go:129 TLS handshake to searchengines.guru (190.93.241.113:443) took 5.1332936s
+Aug 11 18:51:53.125 - 0m31s DEBUG flashlight.client: fronted.go:129 TLS handshake to www.namepros.com (162.159.240.131:443) took 5.1372939s
+Aug 11 18:51:53.391 - 0m31s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:51:54.095 - 0m32s ERROR fronted: masquerade.go:165 Timed out verifying eharmony.com
+Aug 11 18:51:56.707 - 0m35s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.115.118:443 idle for 10s, closing
+Aug 11 18:51:56.956 - 0m35s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://static.ak.facebook.com:80 on pass 0
+Aug 11 18:51:56.965 - 0m35s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://s-static.ak.facebook.com:443 on pass 0
+Aug 11 18:51:56.966 - 0m35s ERROR flashlight.client: handler.go:96 Unable to respond OK: WSASend tcp 127.0.0.1:8787: An established connection was aborted by the software in your host machine.
+Aug 11 18:51:57.187 - 0m35s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://syndication.twitter.com:443 on pass 0
+Aug 11 18:51:57.187 - 0m35s ERROR flashlight.client: handler.go:96 Unable to respond OK: WSASend tcp 127.0.0.1:8787: An established connection was aborted by the software in your host machine.
+Aug 11 18:51:59.332 - 0m37s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 11 18:52:01.944 - 0m40s DEBUG balancer: balancer.go:96 Dialing tcp://logs-01.loggly.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:04.123 - 0m42s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://logs-01.loggly.com:443 on pass 0
+Aug 11 18:52:04.348 - 0m42s DEBUG balancer: balancer.go:96 Dialing tcp://www.google.com.hk:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:05.634 - 0m44s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://www.google.com.hk:80 on pass 0
+Aug 11 18:52:06.293 - 0m44s DEBUG balancer: balancer.go:96 Dialing tcp://www.google.com.hk:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:07.390 - 0m45s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://www.google.com.hk:443 on pass 0
+Aug 11 18:52:07.749 - 0m46s DEBUG balancer: balancer.go:96 Dialing tcp://clients1.google.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:11.951 - 0m50s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://clients1.google.com:80 on pass 0
+Aug 11 18:52:12.277 - 0m50s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.gstatic.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:14.413 - 0m53s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.gstatic.com:443 on pass 0
+Aug 11 18:52:16.060 - 0m54s DEBUG balancer: balancer.go:96 Dialing tcp://www.google.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:18.748 - 0m57s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://www.google.com:443 on pass 0
+Aug 11 18:52:20.335 - 0m58s DEBUG balancer: balancer.go:96 Dialing tcp://clients1.google.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:52:24.917 - 1m3s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://clients1.google.com:80 on pass 0
+Aug 11 18:52:33.493 - 1m12s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:52:33.493 - 1m12s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:52:35.420 - 1m14s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:52:35.631 - 1m14s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:52:38.426 - 1m17s DEBUG detour: detour.go:284 Error while write 46 bytes to safebrowsing.google.com:443 detoured: use of closed network connection
+Aug 11 18:53:01.690 - 1m40s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:53:13.575 - 1m52s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:53:13.575 - 1m52s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:53:14.394 - 1m52s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:53:25.500 - 2m4s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:53:48.403 - 2m26s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:53:48.403 - 2m26s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:53:49.312 - 2m27s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:53:56.395 - 2m34s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:54:31.221 - 3m9s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:54:57.327 - 3m35s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:55:06.184 - 3m44s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:55:06.184 - 3m44s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:55:07.201 - 3m45s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:55:23.120 - 4m1s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:55:43.905 - 4m22s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:55:43.905 - 4m22s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:55:44.867 - 4m23s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:55:58.859 - 4m37s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:56:38.538 - 5m17s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:56:53.458 - 5m32s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:56:53.458 - 5m32s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:56:59.268 - 5m37s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:57:10.428 - 5m49s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:57:39.393 - 6m17s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:57:40.346 - 6m18s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:57:40.346 - 6m18s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:57:41.266 - 6m19s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:58:13.586 - 6m52s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:58:29.951 - 7m8s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:58:29.951 - 7m8s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:58:30.924 - 7m9s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 11 18:58:35.462 - 7m14s DEBUG flashlight.ui: ui.go:125 Not opening external URL again
+Aug 11 18:58:39.534 - 7m18s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:58:43.621 - 7m22s DEBUG flashlight.settings: settings.go:79 Sending Lantern settings to new client
+Aug 11 18:58:43.630 - 7m22s DEBUG balancer: balancer.go:96 Dialing tcp://platform.twitter.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:58:43.916 - 7m22s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://platform.twitter.com:80 on pass 0
+Aug 11 18:58:43.965 - 7m22s DEBUG flashlight.analytics: analytics.go:82 New UI analytics message: map["trackingId":"UA-21815217-2" "viewPortSize":"" "clientId":"1167135441.1439223420" "clientVersion":"j12" "language":"zh-cn" "screenColors":"24-bit" "screenResolution":"1093x614"]
+Aug 11 18:58:43.989 - 7m22s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:58:44.294 - 7m22s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 0
+Aug 11 18:58:44.306 - 7m22s DEBUG balancer: balancer.go:96 Dialing tcp://connect.facebook.net:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 11 18:58:44.602 - 7m23s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 11 18:58:44.603 - 7m23s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://connect.facebook.net:443 on pass 0
+Aug 11 18:58:46.530 - 7m25s DEBUG flashlight.ui: ws.go:156 Error reading from UI: websocket: close 1005 
+Aug 11 18:58:51.001 - 7m29s DEBUG flashlight.ui: ws.go:129 Error writing to UI websocket: close sent for: http:/127.0.0.1:16823/data
+Aug 11 18:59:02.501 - 7m41s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:59:35.472 - 8m14s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 11 18:59:42.154 - 8m20s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 11 18:59:42.154 - 8m20s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 11 18:59:44.067 - 8m22s DEBUG flashlight: flashlight.go:411 Calling exit func
+Aug 14 03:04:19.255 - 0m0s DEBUG i18n: translate.go:102 Setting locale zh_CN
+Aug 14 03:04:19.272 - 0m0s DEBUG flashlight: flashlight.go:180 ---- flashlight version: e6a5b57, release: 9999.99.99, build revision date: 20150807.035744 ----
+Aug 14 03:04:19.273 - 0m0s DEBUG flashlight.config: config.go:169 Placing configuration in Lantern
+Aug 14 03:04:19.356 - 0m0s DEBUG yamlconf: yamlconf_disk.go:50 Configuration changed on disk, applying
+Aug 14 03:04:19.402 - 0m0s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 14 03:04:19.402 - 0m0s DEBUG flashlight: flashlight.go:157 Running proxy
+Aug 14 03:04:19.403 - 0m0s DEBUG flashlight.ui: ui.go:101 UI available at http://127.0.0.1:16823
+Aug 14 03:04:19.403 - 0m0s DEBUG flashlight.ui: service.go:135 Accepting websocket connections at: http:/127.0.0.1:16823/data
+Aug 14 03:04:19.403 - 0m0s DEBUG flashlight.settings: settings.go:79 Sending Lantern settings to new client
+Aug 14 03:04:19.404 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 14 03:04:19.404 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 14 03:04:19.404 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 14 03:04:19.405 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 14 03:04:19.441 - 0m0s DEBUG proxiedsites: proxiedsites.go:134 Applied updated configuration
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight: flashlight.go:314 Proxy all traffic or not: false
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.statreporter: statreporter.go:84 Stat reporting turned off
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.client: client.go:91 Configure() called
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.client: client.go:103 Client configuration initialized
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.client: client.go:104 Requiring minimum QOS of 0
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.client: client.go:105 Proxy all traffic or not: false
+Aug 14 03:04:19.469 - 0m0s DEBUG flashlight.client: balancer.go:31 Adding 1 domain fronted servers
+Aug 14 03:04:19.469 - 0m0s DEBUG fronted: masquerade.go:66 Verifying up to 20 masquerades
+Aug 14 03:04:19.470 - 0m0s DEBUG connpool: connpool.go:74 Starting connection pool with size 30
+Aug 14 03:04:19.470 - 0m0s DEBUG flashlight.client: balancer.go:48 Adding 1 chained servers
+Aug 14 03:04:19.470 - 0m0s DEBUG fronted: dialer.go:232 Creating new direct domain fronter.
+Aug 14 03:04:19.470 - 0m0s DEBUG flashlight.geolookup: geolookup.go:73 Running
+Aug 14 03:04:19.470 - 0m0s DEBUG flashlight.statserver: statserver.go:36 Started
+Aug 14 03:04:19.471 - 0m0s DEBUG flashlight.client: client.go:81 About to start client (HTTP) proxy at 127.0.0.1:8787
+Aug 14 03:04:19.471 - 0m0s DEBUG flashlight.util: http.go:56 Creating new HTTPClient with proxy: 127.0.0.1:8787
+Aug 14 03:04:19.471 - 0m0s DEBUG flashlight.util: http.go:86 Waiting for loopback proxy server to came online...
+Aug 14 03:04:19.472 - 0m0s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 14 03:04:19.472 - 0m0s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 14 03:04:19.472 - 0m0s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 14 03:04:19.476 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 14 03:04:19.477 - 0m0s DEBUG balancer: balancer.go:96 Dialing tcp://ssl.google-analytics.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:19.909 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 14 03:04:19.909 - 0m0s DEBUG flashlight.logging: logging.go:132 Sending error logs to Loggly via proxy at 127.0.0.1:8787
+Aug 14 03:04:19.912 - 0m0s DEBUG flashlight.util: http.go:100 Connected to proxy on localhost
+Aug 14 03:04:19.912 - 0m0s DEBUG flashlight.autoupdate: autoupdate.go:78 Software version: 9999.99.99
+Aug 14 03:04:19.912 - 0m0s DEBUG autoupdate: autoupdate.go:59 Defaulted CheckInterval to 4h0m0s
+Aug 14 03:04:20.056 - 0m0s DEBUG balancer: balancer.go:96 Dialing tcp://update.getlantern.org:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:20.971 - 0m1s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://ssl.google-analytics.com:443 on pass 0
+Aug 14 03:04:20.972 - 0m1s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 14 03:04:21.879 - 0m2s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://update.getlantern.org:443 on pass 0
+Aug 14 03:04:22.306 - 0m3s DEBUG analytics: analytics.go:156 Successfully sent request to GA: 200 OK
+Aug 14 03:04:22.809 - 0m3s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:22.809 - 0m3s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:22.810 - 0m3s DEBUG fronted: masquerade.go:158 Sucessful check for: videoyoum7.com in 3.3361909s, 
+Aug 14 03:04:23.712 - 0m4s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:23.712 - 0m4s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:23.724 - 0m4s DEBUG autoupdate: autoupdate.go:97 No update available
+Aug 14 03:04:23.724 - 0m4s DEBUG fronted: masquerade.go:158 Sucessful check for: armorgames.com in 4.2502431s, 
+Aug 14 03:04:25.703 - 0m6s DEBUG flashlight.geolookup: geolookup.go:106 Location changed
+Aug 14 03:04:26.864 - 0m7s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:26.864 - 0m7s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:26.866 - 0m7s DEBUG fronted: masquerade.go:158 Sucessful check for: sitetalk.com in 7.3924229s, 
+Aug 14 03:04:27.231 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:27.231 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:27.231 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:27.231 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:27.235 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: www.cssauthor.com in 3.5092007s, 
+Aug 14 03:04:27.235 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: www.myitworks.com in 4.4242531s, 
+Aug 14 03:04:27.283 - 0m8s DEBUG flashlight.config: config.go:112 Merging cloud configuration
+Aug 14 03:04:27.603 - 0m8s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:27.603 - 0m8s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:27.604 - 0m8s DEBUG fronted: masquerade.go:158 Sucessful check for: oneplus.net in 8.1304651s, 
+Aug 14 03:04:29.252 - 0m10s DEBUG balancer: balancer.go:96 Dialing tcp://safebrowsing.google.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:29.534 - 0m10s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://safebrowsing.google.com:443 on pass 0
+Aug 14 03:04:29.691 - 0m10s DEBUG balancer: balancer.go:96 Dialing tcp://clients1.google.com:80 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:29.932 - 0m10s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:29.932 - 0m10s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:29.933 - 0m10s DEBUG fronted: masquerade.go:158 Sucessful check for: www.zopim.com in 2.6981543s, 
+Aug 14 03:04:30.245 - 0m11s DEBUG flashlight.client: fronted.go:129 TLS handshake to authorstream.com (190.93.246.194:443) took 6.801389s
+Aug 14 03:04:31.009 - 0m11s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://clients1.google.com:80 on pass 0
+Aug 14 03:04:31.397 - 0m12s DEBUG flashlight.client: fronted.go:129 TLS handshake to avaz.ba (162.159.244.253:443) took 10.5736048s
+Aug 14 03:04:31.648 - 0m12s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:31.648 - 0m12s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:31.649 - 0m12s DEBUG fronted: masquerade.go:158 Sucessful check for: authorstream.com in 12.1756964s, 
+Aug 14 03:04:32.614 - 0m13s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:32.614 - 0m13s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:32.615 - 0m13s DEBUG fronted: masquerade.go:158 Sucessful check for: avaz.ba in 13.1407516s, 
+Aug 14 03:04:32.810 - 0m13s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.16.23.116:443 idle for 10s, closing
+Aug 14 03:04:33.075 - 0m13s DEBUG balancer: balancer.go:96 Dialing tcp://safebrowsing-cache.google.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:33.236 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:33.236 - 0m14s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:33.237 - 0m14s DEBUG fronted: masquerade.go:158 Sucessful check for: ixl.com in 6.3713644s, 
+Aug 14 03:04:33.560 - 0m14s DEBUG flashlight.client: fronted.go:123 TCP connecting to www.davidicke.com (198.41.187.87:443) took 10.8186188s
+Aug 14 03:04:33.724 - 0m14s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.20.4.17:443 idle for 10s, closing
+Aug 14 03:04:34.116 - 0m14s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:34.241 - 0m15s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://safebrowsing-cache.google.com:443 on pass 0
+Aug 14 03:04:34.344 - 0m15s DEBUG flashlight.client: fronted.go:129 TLS handshake to maannews.net (198.41.182.195:443) took 11.9896858s
+Aug 14 03:04:34.734 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:34.734 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:34.735 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: www.davidicke.com in 15.261873s, 
+Aug 14 03:04:34.736 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:34.736 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:34.737 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: www.yokboylebirsey.com.tr in 7.132408s, 
+Aug 14 03:04:34.772 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:35.009 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:35.009 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:35.010 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: drp.su in 2.395137s, 
+Aug 14 03:04:35.136 - 0m15s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:35.136 - 0m15s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:35.137 - 0m15s DEBUG fronted: masquerade.go:158 Sucessful check for: www.nomadicmatt.com in 3.4871995s, 
+Aug 14 03:04:36.865 - 0m17s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.241.207:443 idle for 10s, closing
+Aug 14 03:04:37.235 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 108.162.205.9:443 idle for 10s, closing
+Aug 14 03:04:37.236 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.249.96:443 idle for 10s, closing
+Aug 14 03:04:37.605 - 0m18s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 141.101.125.10:443 idle for 10s, closing
+Aug 14 03:04:38.300 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:38.305 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:38.327 - 0m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:39.446 - 0m20s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:39.446 - 0m20s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:39.457 - 0m20s DEBUG fronted: masquerade.go:158 Sucessful check for: www.swefilmer.com in 4.4462543s, 
+Aug 14 03:04:39.934 - 0m20s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.240.200:443 idle for 10s, closing
+Aug 14 03:04:40.613 - 0m21s DEBUG flashlight.client: fronted.go:129 TLS handshake to alexaboostup.com (198.41.207.254:443) took 5.5153155s
+Aug 14 03:04:41.575 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:41.606 - 0m22s DEBUG flashlight.client: fronted.go:129 TLS handshake to coinmarketcap.com (198.41.249.182:443) took 7.7044407s
+Aug 14 03:04:41.650 - 0m22s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.246.194:443 idle for 10s, closing
+Aug 14 03:04:42.179 - 0m22s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:42.179 - 0m22s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:42.180 - 0m22s DEBUG fronted: masquerade.go:158 Sucessful check for: www.hespress.com in 7.0424028s, 
+Aug 14 03:04:42.188 - 0m22s DEBUG flashlight.client: fronted.go:123 TCP connecting to nerdfitness.com (162.159.244.153:443) took 5.1832964s
+Aug 14 03:04:42.212 - 0m23s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:42.212 - 0m23s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:42.213 - 0m23s DEBUG fronted: masquerade.go:158 Sucessful check for: alexaboostup.com in 7.4754275s, 
+Aug 14 03:04:42.297 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 192.230.82.186:443 idle for 10s, closing
+Aug 14 03:04:42.615 - 0m23s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.253:443 idle for 10s, closing
+Aug 14 03:04:42.781 - 0m23s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:42.781 - 0m23s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:42.793 - 0m23s DEBUG fronted: masquerade.go:158 Sucessful check for: coinmarketcap.com in 9.5545465s, 
+Aug 14 03:04:43.159 - 0m23s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:43.159 - 0m23s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:43.160 - 0m23s DEBUG fronted: masquerade.go:158 Sucessful check for: nerdfitness.com in 8.4244818s, 
+Aug 14 03:04:43.238 - 0m24s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.244.137:443 idle for 10s, closing
+Aug 14 03:04:44.285 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:44.285 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:44.286 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: imgflip.com in 2.0721185s, 
+Aug 14 03:04:44.346 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.182.195:443 idle for 10s, closing
+Aug 14 03:04:44.356 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:44.681 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:44.681 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:44.682 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: www.levelup.com in 1.888108s, 
+Aug 14 03:04:44.736 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.187.87:443 idle for 10s, closing
+Aug 14 03:04:44.738 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.252:443 idle for 10s, closing
+Aug 14 03:04:44.986 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:44.986 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:44.987 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: post852.com in 5.5293162s, 
+Aug 14 03:04:45.011 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.17:443 idle for 10s, closing
+Aug 14 03:04:45.110 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.111 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:45.112 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: maannews.net in 25.6384665s, 
+Aug 14 03:04:45.134 - 0m25s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.134 - 0m25s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:45.145 - 0m25s DEBUG fronted: masquerade.go:158 Sucessful check for: www.powned.tv in 1.9841135s, 
+Aug 14 03:04:45.159 - 0m25s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.247.103:443 idle for 10s, closing
+Aug 14 03:04:45.445 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.790 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.801 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.802 - 0m26s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:45.802 - 0m26s DEBUG fronted: masquerade.go:158 Sucessful check for: network54.com in 3.6212071s, 
+Aug 14 03:04:45.887 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:45.907 - 0m26s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:46.212 - 0m27s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:46.695 - 0m27s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:49.457 - 0m30s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.181.216:443 idle for 10s, closing
+Aug 14 03:04:49.473 - 0m30s ERROR fronted: masquerade.go:165 Timed out verifying sanakirja.org
+Aug 14 03:04:49.474 - 0m30s ERROR fronted: masquerade.go:165 Timed out verifying ladygames.com
+Aug 14 03:04:49.482 - 0m30s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade sanakirja.org: tlsdialer: DialWithDialer timed out
+Aug 14 03:04:49.483 - 0m30s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade ladygames.com: tlsdialer: DialWithDialer timed out
+Aug 14 03:04:49.912 - 0m30s DEBUG balancer: balancer.go:96 Dialing tcp://logs-01.loggly.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:04:50.940 - 0m31s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade tgju.org: dial tcp 141.101.126.99:443: ConnectEx tcp: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Aug 14 03:04:50.940 - 0m31s ERROR fronted: masquerade.go:165 HTTP error for masquerade tgju.org: Head http://www.google.com/humans.txt: Unable to dial proxy to www.google.com:80: Unable to dial proxy to www.google.com:80: Unable to dial masquerade tgju.org: dial tcp 141.101.126.99:443: ConnectEx tcp: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Aug 14 03:04:52.180 - 0m32s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.253.98:443 idle for 10s, closing
+Aug 14 03:04:52.213 - 0m33s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.207.254:443 idle for 10s, closing
+Aug 14 03:04:52.668 - 0m33s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:52.703 - 0m33s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 14 03:04:52.793 - 0m33s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.249.182:443 idle for 10s, closing
+Aug 14 03:04:53.160 - 0m33s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.244.153:443 idle for 10s, closing
+Aug 14 03:04:53.167 - 0m33s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:53.223 - 0m34s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:54.023 - 0m34s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:54.286 - 0m35s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 190.93.245.142:443 idle for 10s, closing
+Aug 14 03:04:54.657 - 0m35s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:54.683 - 0m35s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.255.190:443 idle for 10s, closing
+Aug 14 03:04:54.988 - 0m35s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.20.15.192:443 idle for 10s, closing
+Aug 14 03:04:55.171 - 0m35s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.245.144:443 idle for 10s, closing
+Aug 14 03:04:55.803 - 0m36s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.250.43:443 idle for 10s, closing
+Aug 14 03:04:55.825 - 0m36s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:55.825 - 0m36s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:04:55.826 - 0m36s DEBUG fronted: masquerade.go:158 Sucessful check for: com-2014.org in 11.53866s, 
+Aug 14 03:04:55.968 - 0m36s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:56.023 - 0m36s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:56.462 - 0m37s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:56.798 - 0m37s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:57.269 - 0m38s ERROR fronted: masquerade.go:165 Timed out verifying www.sfimg.com
+Aug 14 03:04:57.447 - 0m38s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:04:58.576 - 0m39s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade songspk.name: WSARecv tcp 192.168.111.182:3146: An existing connection was forcibly closed by the remote host.
+Aug 14 03:04:58.576 - 0m39s ERROR fronted: masquerade.go:165 HTTP error for masquerade songspk.name: Head http://www.google.com/humans.txt: Unable to dial proxy to www.google.com:80: Unable to dial proxy to www.google.com:80: Unable to dial masquerade songspk.name: WSARecv tcp 192.168.111.182:3146: An existing connection was forcibly closed by the remote host.
+Aug 14 03:04:58.737 - 0m39s DEBUG flashlight.client: fronted.go:123 TCP connecting to prosperent.com () took 6.6633812s
+Aug 14 03:04:58.737 - 0m39s DEBUG enproxy: conn_impl.go:99 Unable to dial proxy to www.google.com:80: Unable to dial masquerade prosperent.com: WSARecv tcp 192.168.111.182:3147: An existing connection was forcibly closed by the remote host.
+Aug 14 03:04:58.737 - 0m39s ERROR fronted: masquerade.go:165 HTTP error for masquerade prosperent.com: Head http://www.google.com/humans.txt: Unable to dial proxy to www.google.com:80: Unable to dial proxy to www.google.com:80: Unable to dial masquerade prosperent.com: WSARecv tcp 192.168.111.182:3147: An existing connection was forcibly closed by the remote host.
+Aug 14 03:05:00.385 - 0m41s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://logs-01.loggly.com:443 on pass 0
+Aug 14 03:05:01.124 - 0m41s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:01.124 - 0m41s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:05:01.125 - 0m41s DEBUG fronted: masquerade.go:158 Sucessful check for: e-cigarette-forum.com in 10.1835825s, 
+Aug 14 03:05:01.419 - 0m42s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:01.419 - 0m42s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:05:01.420 - 0m42s DEBUG fronted: masquerade.go:158 Sucessful check for: addmefast.com in 2.6831534s, 
+Aug 14 03:05:02.972 - 0m43s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:02.972 - 0m43s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:05:02.984 - 0m43s DEBUG fronted: masquerade.go:158 Sucessful check for: www.brasil247.com in 5.7143269s, 
+Aug 14 03:05:05.826 - 0m46s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.240.96:443 idle for 10s, closing
+Aug 14 03:05:07.551 - 0m48s DEBUG balancer: balancer.go:96 Dialing tcp://logs-01.loggly.com:443 with (trusted) chained proxy at 45.32.253.3:443
+Aug 14 03:05:08.389 - 0m49s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:08.487 - 0m49s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:11.125 - 0m51s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 104.20.28.178:443 idle for 10s, closing
+Aug 14 03:05:11.420 - 0m52s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 198.41.191.157:443 idle for 10s, closing
+Aug 14 03:05:12.202 - 0m52s DEBUG balancer: balancer.go:103 Successfully dialed to tcp://logs-01.loggly.com:443 on pass 0
+Aug 14 03:05:12.241 - 0m53s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:12.904 - 0m53s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:12.985 - 0m53s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.251.62:443 idle for 10s, closing
+Aug 14 03:05:14.241 - 0m55s DEBUG flashlight.client: fronted.go:129 TLS handshake to steamdb.info (162.159.253.177:443) took 12.2637014s
+Aug 14 03:05:14.522 - 0m55s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:17.307 - 0m58s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:05:17.307 - 0m58s DEBUG enproxy: conn_impl_requests.go:51 Issued write request with result: <nil>
+Aug 14 03:05:17.308 - 0m58s DEBUG fronted: masquerade.go:158 Sucessful check for: steamdb.info in 18.7320714s, 
+Aug 14 03:05:26.774 - 1m7s DEBUG flashlight.client: fronted.go:123 TCP connecting to steamdb.info (162.159.253.177:443) took 9.1365225s
+Aug 14 03:05:27.308 - 1m8s DEBUG enproxy: conn_impl.go:46 Proxy connection to www.google.com:80 via 162.159.253.177:443 idle for 10s, closing
+Aug 14 03:05:30.168 - 1m10s DEBUG flashlight.config: config.go:341 Checking for cloud configuration at: https://config.getiantem.org/cloud.yaml.gz
+Aug 14 03:05:30.168 - 1m10s DEBUG fronted: dialer.go:228 Dialing config.getiantem.org:80 with direct domain fronter
+Aug 14 03:05:31.249 - 1m12s DEBUG detour: detour.go:284 Error while write 46 bytes to safebrowsing.google.com:443 detoured: use of closed network connection
+Aug 14 03:05:35.096 - 1m15s DEBUG flashlight.config: config.go:363 Config unchanged in cloud
+Aug 14 03:05:37.727 - 1m18s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 14 03:05:38.357 - 1m19s DEBUG enproxy: conn_impl.go:179 Got OK from fronting provider
+Aug 14 03:06:12.716 - 1m53s DEBUG fronted: dialer.go:228 Dialing geo.getiantem.org:80 with direct domain fronter
+Aug 14 03:06:15.702 - 1m56s DEBUG flashlight: flashlight.go:411 Calling exit func

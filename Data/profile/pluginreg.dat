@@ -1,0 +1,73 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.17|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npxunlei.dll|$
+C:\Program Files (x86)\Thunder Network\Thunder\BHO\npxunlei.dll|$
+1.0.0.2|$
+1389949850000|0|0|0|$
+Xunlei scriptability Plugin|$
+XunLei Plugin|$
+2
+0|application/np_xunlei_plugin|np_xunlei_plugin|*|$
+1|application/np_xunlei_plugin.2|||$
+npSSOAxCtrlForPTLogin.dll|$
+C:\Program Files (x86)\Common Files\Tencent\TXSSO\1.2.2.1\Bin\npSSOAxCtrlForPTLogin.dll|$
+1.0.1.10|$
+1365402240000|0|0|0|$
+QQ QuickLogin Helper|$
+Tencent SSO Platform|$
+1
+0|application/nptxsso|TXSSO||$
+npqscall.dll|$
+C:\Program Files (x86)\Common Files\Tencent\NPQSCALL\npqscall.dll|$
+1.90.4903.0|$
+1433949783120|0|0|0|$
+QQ2013 Firefox Plugin|$
+QQ2013 Firefox Plugin|$
+1
+0|application/qscall-plugin||dll|$
+npchrome.dll|$
+C:\Program Files (x86)\Common Files\Tencent\Npchrome\npchrome.dll|$
+1.90.4903.0|$
+1433949783026|0|0|0|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+1
+0|application/npchrome-plugin|DLL|dll|$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~1\Office15\NPSPWRAP.DLL|$
+15.0.4514.1000|$
+1390335104000|0|0|0|$
+The plugin allows you to have a better experience with Microsoft SharePoint|$
+Microsoft Office 2013|$
+2
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+1|application/x-sharepoint-uc|||$
+NPComBrg701.dll|$
+C:\Windows\system32\itruscert\NPComBrg701.dll|$
+1.0.2011.701|$
+1311580152000|0|0|0|$
+iTrusPTA&XEnroll hwPTA,IEnroll,UKeyInstalls for FireFox,version=1.0.0.2|$
+iTrusChina iTrusPTA,XEnroll,iEnroll,hwPTA,UKeyInstalls Firefox Plugin|$
+6
+0|application/pta.itruspta.version.1|PTA|*|$
+1|application/cenroll.cenroll.version.1|CEnroll||$
+2|application/itrusenroll.certenroll.version.1|IEnroll||$
+3|application/hwpta.itrushwpta|hwPTA||$
+4|application/hwwdkey.installwdkey|hwWDkey||$
+5|application/hwepass2001.installepass2001|HwEpass2001||$
+NPSWF32_18_0_0_209.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_18_0_0_209.dll|$
+18.0.0.209|$
+1436980914700|0|0|0|$
+Shockwave Flash 18.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+
+[INVALID]

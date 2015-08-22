@@ -14,3 +14,8 @@
 * 或者点击这里下载  本地 https://github.com/yeahwu/firefox/archive/master.zip
 * 腾讯微云（有效期一星期）http://share.weiyun.com/45a52df04ec378f8ec6a69ee0a44f1c7
 
+感谢
+======
+* lantern
+* kingtope...@gmail.com
+* PortableApps
